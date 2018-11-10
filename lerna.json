@@ -4,7 +4,9 @@
   ],
   "version": "0.0.0",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap --nohoist",
     "test": "jest"
-  }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }

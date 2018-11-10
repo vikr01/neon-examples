@@ -14,5 +14,9 @@
   },
   "eslintConfig": {
     "extends": "bliss"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "./*"
+  ]
 }

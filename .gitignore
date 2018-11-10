@@ -19,4 +19,4 @@ npm-debug.log.*
 target
 artifacts.json
 index.node
-yarn.lock
+package-lock.json
